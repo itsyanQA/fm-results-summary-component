@@ -1,0 +1,20 @@
+.score {
+  display: flex;
+  width: 160px;
+  height: 160px;
+  background-color: hsla(241, 81%, 54%, 10%);
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__number {
+    font-weight: 900;
+    color: var(--white);
+    font-size: 60px;
+  }
+
+  &__out-of {
+    color: var(--pale-blue);
+  }
+}

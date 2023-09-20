@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.css";
+import ResultsSummary from "./components/ResultsSummary/ResultSummary";
 
 function App() {
-  return <h1>hello</h1>;
+  return <ResultsSummary />;
 }
 
 export default App;

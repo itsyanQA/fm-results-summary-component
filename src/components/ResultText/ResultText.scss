@@ -1,0 +1,15 @@
+.result-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & h1 {
+    color: var(--white);
+  }
+
+  & p {
+    color: var(--pale-blue);
+    max-width: 220px;
+    text-align: center;
+  }
+}
