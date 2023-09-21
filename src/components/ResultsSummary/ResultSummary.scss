@@ -48,6 +48,10 @@
   padding: 10px 30px;
   justify-content: space-around;
 
+  @media screen and (max-width: 600px) {
+    width: 80%;
+  }
+
   &__summary {
     color: var(--dark-gray-blue);
     font-weight: 800;
