@@ -32,4 +32,6 @@ Mobile:
 - Flexbox
 - [React](https://reactjs.org/) - JS library
 - SASS
+  
+Deployed using Netlify
 
